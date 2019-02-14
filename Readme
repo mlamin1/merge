@@ -1,0 +1,30 @@
+Muniru Lamin
+02/14/19
+COSC 320 Lab-2
+
+This program was created to test different arrays for the Quick sort and Merge sort.
+The program contain only one cpp which is my main.cpp file.
+It has the Merge sort and Quick sort function which also has another function called Partition.
+The program is user friendly. It asks user for the type of sort they would like to run, then it ask the for the type of array they would like to run, then finally ask them for the size of the array.
+
+
+1. The theorectical time complexity of my merge sort algorithm is best case: big theta(n log(n))
+worst case: big O(n^2). The theorectical time complexity for Merge sort algorithm is best case: big theta(nlog(n)) worst case: big O(n log(n)).
+
+
+2.The timing scale increases as the number of elements in the array increases.
+When I ran the array size at 100,000 for quick sort random array, it was fast, but when i tried a million it was slower.
+
+
+3.For my result the algorithm varied based on the type of array I ran the test on. for a weird reason it took longer for the algorithm to check my sorted array and backwards array than my dupplicate and random array.
+
+
+4.
+
+
+
+
+5.This algorithm compare to bubble sort is way faster because bubble sort compare each elements but merge and quick sort of have a division comparison type.
+
+
+6.My code could be improved by not putting my full program in the main. So maybe add class so that the unecessary functions are hidden. also I could find a better way to use less repeatative code.
